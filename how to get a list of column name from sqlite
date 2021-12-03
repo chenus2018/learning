@@ -2,4 +2,9 @@
 
 The answer found from stackoverflow and proved to be effective.
 # And I was thinking how to query in mysql? I used to find one, but it was quite a long query.
+
+# sqlite
 SELECT name FROM PRAGMA_TABLE_INFO('post');
+
+# mysql
+select COLUMN_NAME from information_schema.COLUMNS where table_name = 'your_table_name' and table_schema = 'your_db_name';
