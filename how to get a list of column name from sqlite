@@ -1,0 +1,3 @@
+# It's the answer from flowstack and confirm it was practical.
+# Maybe I should find another one in mysql
+SELECT name FROM PRAGMA_TABLE_INFO('post');
