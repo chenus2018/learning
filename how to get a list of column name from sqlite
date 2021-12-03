@@ -1,3 +1,5 @@
-# It's the answer from flowstack and confirm it was practical.
-# Maybe I should find another one in mysql
+# A
+
+The answer found from stackoverflow and proved to be effective.
+# And I was thinking how to query in mysql? I used to find one, but it was quite a long query.
 SELECT name FROM PRAGMA_TABLE_INFO('post');
